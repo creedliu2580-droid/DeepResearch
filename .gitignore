@@ -1,0 +1,33 @@
+# 环境与密钥
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / 前端
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# 运行产物 / 会话数据
+*.log
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# 评估产物
+eval_report*.html
+eval_report*.json
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+*.swp

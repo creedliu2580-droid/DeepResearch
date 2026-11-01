@@ -1,0 +1,16 @@
+# 环境与密钥
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行产物
+*.log
+
+# 会话检查点数据库
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
